@@ -2584,6 +2584,7 @@ a.polit {
 }
 .file-add {
     margin-bottom: 20px;
+    display: block !important;
 }
 .file-tit {
     font-size: 20px;
