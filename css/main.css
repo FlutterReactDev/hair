@@ -1,37 +1,29 @@
-
 @font-face {
     font-family: 'Inter-Regular';
-    src:url('../fonts/Inter-Regular.eot?-kwf309');
-    src:url('../fonts/Inter-Regular.eot?#iefix-kwf309') format('embedded-opentype'),
-      url('../fonts/Inter-Regular.ttf?-kwf309') format('truetype'),
-      url('../fonts/Inter-Regular.svg?-kwf309#AA-Arial') format('svg');
+    src:url('../fonts/Inter-Regular.woff2?#iefix-kwf309') format("woff2"),
+      url('../fonts/Inter-Regular.woff?-kwf309') format('woff');
     font-weight: normal;
     font-style: normal;
-    font-display: swap;
-  }  
-  
-  
-  @font-face {
-    font-family: 'Inter-Bold';
-    src:url('../fonts/Inter-Bold.eot?-kwf309');
-    src:url('../fonts/Inter-Bold.eot?#iefix-kwf309') format('embedded-opentype'),
-      url('../fonts/Inter-Bold.ttf?-kwf309') format('truetype'),
-      url('../fonts/Inter-Bold.svg?-kwf309#AA-Arial') format('svg');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-  }  
+} 
 
-   @font-face {
+
+
+  
+@font-face {
     font-family: 'Inter-SemiBold';
-    src:url('../fonts/Inter-SemiBold.eot?-kwf309');
-    src:url('../fonts/Inter-SemiBold.eot?#iefix-kwf309') format('embedded-opentype'),
-      url('../fonts/Inter-SemiBold.ttf?-kwf309') format('truetype'),
-      url('../fonts/Inter-SemiBold.svg?-kwf309#AA-Arial') format('svg');
+    src:url('../fonts/Inter-SemiBold.woff2?#iefix-kwf309') format("woff2"),
+      url('../fonts/Inter-SemiBold.woff?-kwf309') format('woff');
     font-weight: normal;
     font-style: normal;
-    font-display: swap;
-  }   
+} 
+
+@font-face {
+    font-family: 'Inter-Bold';
+    src:url('../fonts/Inter-Bold.ttf?#iefix-kwf309') ;
+    font-weight: normal;
+    font-style: normal;
+} 
+
 
 
 *, ::after, ::before {
@@ -68,7 +60,7 @@ body {
   letter-spacing: 0;
   margin: 0;
   line-height: 28px;
-  font-family: 'Inter-Regular', 'sans-serif' ;
+  font-family: 'Inter-Regular';
 }
 
 a {color: #212121;}
