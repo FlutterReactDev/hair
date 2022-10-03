@@ -7,9 +7,6 @@
     font-display: block;
 } 
 
-
-
-  
 @font-face {
     font-family: 'Inter-SemiBold';
     src:url('../fonts/Inter-SemiBold.woff2?#iefix-kwf309') format("woff2"),
@@ -2584,6 +2581,32 @@ a.polit {
     -moz-border-radius:5px ;
     -ms-border-radius:5px ;
     -o-border-radius:5px ;
+}
+.file-add {
+    margin-bottom: 20px;
+}
+.file-tit {
+    font-size: 20px;
+}
+.file-add-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.file-add-list-item {
+    background-color: #5E50A2;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 10px 10px 15px;
+    border-radius:6px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.file-add-list-item img {
+   cursor: pointer;
+    width: 26px;
+    margin-left: 10px;
+
 }
 .input-file2 span {
   position: relative;
