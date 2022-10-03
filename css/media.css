@@ -1297,7 +1297,9 @@ ul.list-is li {
     line-height: 22px;
     margin: 0 0 20px;
 }
-
+.file-add {
+    font-size: 16px;
+}
 .post-img-is {
     display: none;
 }

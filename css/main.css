@@ -2585,10 +2585,9 @@ a.polit {
 .file-add {
     margin-bottom: 20px;
     display: block !important;
-}
-.file-tit {
     font-size: 20px;
 }
+
 .file-add-list {
     display: flex;
     flex-wrap: wrap;
@@ -2597,7 +2596,6 @@ a.polit {
 .file-add-list-item {
     background-color: #5E50A2;
     color: #fff;
-    font-size: 20px;
     padding: 10px 10px 10px 15px;
     border-radius:6px;
     margin-right: 10px;
