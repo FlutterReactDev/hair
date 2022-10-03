@@ -17,12 +17,12 @@
     font-style: normal;
 } 
 
-/* @font-face {
+@font-face {
     font-family: 'Inter-Bold';
-    src:url('../fonts/Inter-Bold.ttf?#iefix-kwf309') ;
+    src:url('../fonts/Inter-Bold.woff2?#iefix-kwf309') format("woff2");
     font-weight: normal;
     font-style: normal;
-}  */
+} 
 
 
 
@@ -166,7 +166,7 @@ input#opened {
 }
 
 .logo-text {
-    font-family: Inter-Bold;
+    font-family: 'Inter-Bold';
     font-size: 36px;
     color: #212121;
     line-height: 44px;
